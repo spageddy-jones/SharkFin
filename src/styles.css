@@ -64,6 +64,10 @@ input:focus{
     filter: drop-shadow(0px 0px 10px #d68bf1) !important;
 }
 
+.dropdown-toggle::after {
+    display: none !important;
+}
+
 .introText{
     margin-top: 1em;
     overflow: none;
@@ -106,9 +110,23 @@ input:focus{
     z-index: 1;
 }
 
+.nav-link{
+    text-align: center;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.nav-link:hover{
+    color: #F9D5F0;
+}
+
+.nav-link + i {
+    font-size: 1.3em;
+}
+
 .seperator {
     margin: 1em;
-    color:#9F2747;
+    color:#25161a;
 }
 
 .sideCols{
@@ -118,6 +136,12 @@ input:focus{
 }
 
 /* ------------------ IDs ------------------- */
+
+#responsive-navbar-nav{
+    align-items: center;
+    justify-content: right;
+    margin-right: 1em;
+}
 
 #errorTitle {
     font-size: 4em;
@@ -142,6 +166,12 @@ input:focus{
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+#navContent{
+    display: flex;
+    justify-content: right;
+    align-items: center;
 }
 
 #registerRow{

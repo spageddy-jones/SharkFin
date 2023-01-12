@@ -31,6 +31,7 @@ class Header extends React.Component{
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
                 <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet" /> 
                 <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Quicksand:wght@500&display=swap" rel="stylesheet" /> 
+                <script src="https://kit.fontawesome.com/92d4bdaa4d.js" crossorigin="anonymous"></script>
             </Helmet>
         );
     }
